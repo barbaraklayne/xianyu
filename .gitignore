@@ -1,0 +1,620 @@
+__pycache__
+*node_modules/*
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# Python lib directories (but not static/lib)
+lib/
+!static/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+MANIFEST
+*.manifest
+*.spec
+.cache
+*.log
+local_settings.py
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+__pypackages__/
+.venv
+
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files
+.env.local
+.env.*.local
+
+# ==================== 项目特定文件 ====================
+# 日志文件
+logs/
+realtime.log
+
+# 数据目录
+data/
+backups/
+
+# Excel测试文件
+keywords_*.xlsx
+*.xls
+
+# 图片缓存
+*.png.cache
+*.jpg.cache
+
+# 上传的文件（保留目录结构，忽略文件内容）
+static/uploads/*
+!static/uploads/.gitkeep
+!static/uploads/images/
+static/uploads/images/*
+!static/uploads/images/.gitkeep
+
+# 配置文件（包含敏感信息）
+config.local.yml
+global_config.local.yml
+
+# 测试文件
+test_*.py
+*_test.py
+keywords_sample.xlsx
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==================== Python开发相关 ====================
+# Python 字节码和缓存（补充）
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# 分发/打包（补充）
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller（补充）
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==================== 项目特定新增 ====================
+
+# 数据库文件
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 临时文件和缓存
+*.cache
+.cache/
+cache/
+
+# 编辑器临时文件
+*.swp
+*.swo
+*.tmp
+*~
+.#*
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 文档生成
+docs/_build/
+docs/build/
+
+# 密钥和证书
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# 配置文件备份
+*.conf.bak
+*.config.bak
+
+# 运行时文件
+*.pid
+*.sock
+
+# 调试文件
+debug.log
+*.debug
+
+# 性能分析文件
+*.prof
+
+# 本地开发文件
+local/
+.local/
+
+# Docker相关
+.dockerignore.bak
+docker-compose.override.yml
+
+# 版本控制
+.svn/
+.hg/
+.bzr/
+
+# 包管理器
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 前端构建
+dist/
+build/
+.next/
+.nuxt/
+.vuepress/dist
+
+# 移动端
+*.apk
+*.ipa
+*.app
+
+# 数据文件
+*.csv.bak
+*.json.bak
+*.xml.bak
+
+# 媒体文件缓存
+*.mp4.cache
+*.mp3.cache
+*.wav.cache
+*.avi.cache
+
+# AI模型文件
+*.model
+*.weights
+*.h5
+*.pb
+
+# 大文件
+*.iso
+*.dmg
+*.img
+
+# ==================== 项目特定新增文件类型 ====================
+# 测试和示例文件
+test_*.py
+*_test.py
+test_*.html
+*_test.html
+test_*.js
+*_test.js
+example_*.py
+*_example.py
+demo_*.py
+*_demo.py
+fix_*.py
+*_fix.py
+sample_*.py
+*_sample.py
+mock_*.py
+*_mock.py
+debug_*.py
+*_debug.py
+
+# 测试相关目录
+tests/
+test/
+testing/
+__tests__/
+spec/
+specs/
+
+# 测试配置文件
+pytest.ini
+.pytest_cache/
+test_*.ini
+*_test.ini
+test_*.conf
+*_test.conf
+
+# 测试数据文件
+test_*.json
+*_test.json
+test_*.csv
+*_test.csv
+test_*.xml
+*_test.xml
+test_*.xlsx
+*_test.xlsx
+test_*.txt
+*_test.txt
+
+# 测试输出文件
+test_output/
+test_results/
+test_reports/
+coverage_html/
+.coverage
+coverage.xml
+htmlcov/
+
+# 性能测试文件
+benchmark_*.py
+*_benchmark.py
+perf_*.py
+*_perf.py
+load_test_*.py
+*_load_test.py
+
+# 文档文件（除了README.md）
+*.md
+!README.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+!LICENSE.md
+!docs/*.md
+
+# 临时配置文件
+*.local.yml
+*.dev.yml
+*.test.yml
+config.*.yml
+!global_config.yml
+
+# 运行时生成的文件
+*.pid
+*.lock
+*.sock
+*.port
+
+# 性能和调试文件
+*.profile
+*.pstats
+*.trace
+
+# 编译和构建产物
+*.whl
+*.egg
+*.tar.gz
+build/
+dist/
+
+# 开发工具配置
+.editorconfig
+.flake8
+.pylintrc
+pyproject.toml
+setup.cfg
+tox.ini
+
+# 容器相关
+docker-compose.*.yml
+!docker-compose.yml
+!docker-compose-cn.yml
+
+# 安全相关
+*.secret
+*.token
+*.auth
+secrets/
+credentials/
+
+# 监控和日志
+*.access.log
+*.error.log
+*.audit.log
+monitoring/
+
+# 第三方服务配置
+.env
+.env.*
+!.env.example
+
+# 数据导出文件
+export_*.csv
+export_*.json
+export_*.xlsx
+dump_*.sql
+
+# 临时下载文件
+downloads/
+temp_downloads/
+
+# 浏览器相关
+.playwright/
+playwright-report/
+test-results/
+
+# 系统服务文件
+*.service
+*.timer
+systemd/
+
+# 备份和归档
+archive/
+old/
+deprecated/
+
+# ==================== 项目特定新增 ====================
+# 数据库文件
+xianyu_data.db
+xianyu_data_backup_*.db
+
+# 实时日志文件
+realtime.log
+
+# 用户统计文件
+user_stats.db
+user_stats.txt
+stats.log
+
+# PHP测试文件
+php/
+
+# 检查脚本
+check_disk_usage.py
+
+# Docker相关
+docker-compose.override.yml
+.env.docker
+
+# IDE和编辑器
+.vscode/settings.json
+.idea/workspace.xml
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统特定
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 网络和缓存
+.wget-hsts
+.curl_sslcache
+
+# 临时和锁文件
+*.lock
+*.pid
+*.sock
+*.port
+.fuse_hidden*
+
+# 压缩和打包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 媒体文件（如果不需要版本控制）
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# 大文件和二进制文件
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 文档生成
+docs/_build/
+docs/build/
+site/
+_site/
+
+# 包管理器锁文件
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
+
+# 环境和配置文件
+.env
+.env.*
+!.env.example
+config.local.*
+settings.local.*
+
+# 运行时生成的文件
+*.generated.*
+*.auto.*
+auto_*
+
+# 性能分析和调试
+*.prof
+*.pstats
+*.trace
+*.debug
+profile_*
+debug_*
+
+# 安全相关
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+*.secret
+*.token
+*.auth
+secrets/
+credentials/
+keys/
+
+# 监控和统计
+monitoring/
+metrics/
+stats/
+
+# 第三方工具
+.sonarqube/
+.scannerwork/
+.nyc_output/
+coverage/
+.coverage.*
+
+# 移动端开发
+*.apk
+*.ipa
+*.app
+*.aab
+
+# 游戏开发
+*.unity
+*.unitypackage
+
+# 科学计算
+*.mat
+*.h5
+*.hdf5
+
+# 地理信息系统
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# 3D模型
+*.obj
+*.fbx
+*.dae
+*.3ds
+
+# 字体文件（如果不需要版本控制）
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+
+# 数据文件（根据需要调整）
+*.csv.bak
+*.json.bak
+*.xml.bak
+*.sql.bak
